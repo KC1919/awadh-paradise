@@ -1,0 +1,52 @@
+/* styles.css */
+
+/* Customize the font of the navbar brand */
+.navbar a.navbar-brand {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Use Segoe UI font family as the primary font */
+}
+
+/* Style the navigation links */
+.navbar-nav .nav-item {
+  margin-right: 10px; /* Adjust the space between each navigation link */
+}
+
+/* Change the color of the navigation links on hover */
+.navbar-nav .nav-item .nav-link:hover {
+  color: #007bff; /* Blue color on hover */
+}
+
+/* Add a background color to the active navigation link */
+.navbar-nav .nav-item .nav-link.active {
+  background-color: #007bff;
+  color: #fff; /* White text color for active link */
+  border-radius: 5px;
+}
+
+/* Increase the height of the navbar */
+.navbar {
+  height: 80px;
+  background-color: #e6f2ff; /* Very light shade of bluish-green */
+}
+
+/* Adjust the spacing between the brand logo and the brand name */
+.navbar-brand img {
+  width: 30px; /* Change the width of the image to your desired value */
+  height: 30px; /* Change the height of the image to maintain its aspect ratio */
+  margin-right: 10px;
+}
+
+/* Move the navigation links to the right */
+.navbar-nav {
+  margin-left: auto;
+}
+
+/* Add a box shadow to the navbar */
+.navbar {
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Add a smooth transition effect on the navigation links */
+.navbar-nav .nav-link {
+  transition: color 0.3s ease;
+}
