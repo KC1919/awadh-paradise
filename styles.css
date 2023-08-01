@@ -26,13 +26,10 @@
 /* Increase the height of the navbar */
 .navbar {
   height: 80px;
-  background-color: #e6f2ff; /* Very light shade of bluish-green */
 }
 
 /* Adjust the spacing between the brand logo and the brand name */
 .navbar-brand img {
-  width: 30px; /* Change the width of the image to your desired value */
-  height: 30px; /* Change the height of the image to maintain its aspect ratio */
   margin-right: 10px;
 }
 
@@ -49,4 +46,12 @@
 /* Add a smooth transition effect on the navigation links */
 .navbar-nav .nav-link {
   transition: color 0.3s ease;
+}
+
+/* Add custom CSS to make the mobile menu toggle on the right side */
+@media (max-width: 991.98px) {
+  /* Adjust the position of the toggle button to make it appear on the right side */
+  .navbar-toggler {
+    margin-left: auto;
+  }
 }
