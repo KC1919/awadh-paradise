@@ -25,7 +25,7 @@
 
 /* Increase the height of the navbar */
 .navbar {
-  height: 80px;
+  height: 12vh;
 }
 
 /* Adjust the spacing between the brand logo and the brand name */
@@ -53,5 +53,98 @@
   /* Adjust the position of the toggle button to make it appear on the right side */
   .navbar-toggler {
     margin-left: auto;
+  }
+}
+
+
+.nav-item-container{
+  width: fit-content;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+}
+
+/* #hero-section{
+  height: 100vh;
+} */
+
+.hero-container{
+  height: 88vh;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #007bff;
+}
+
+/* 
+.carousel{
+  max-height: 100%;
+}
+
+.carousel-inner{
+  max-height: 100%;
+}
+
+.carousel-item{
+  max-height: 80%;
+  width: 50vw;
+  margin: 0 auto;
+  text-align: center;
+} */
+
+
+.services-header-div{
+  width: 50vw;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* .services-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+} */
+
+/* Container styles */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Card styles */
+.card {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
+
+.card .content {
+  padding: 10px;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .card {
+    width: calc(50% - 20px);
+  }
+}
+
+/* Media query for even smaller screens */
+@media screen and (max-width: 480px) {
+  .card {
+    width: 100%;
   }
 }
