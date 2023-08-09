@@ -1,0 +1,42 @@
+.service-header-div {
+    width: 50vw;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+.service-body-div {
+    width: 95vw;
+    padding: 1rem;
+    margin: 0 2rem;
+    text-align: center;
+}
+
+.service-card-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.card-image{
+    background-color: #ef5959;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image:hover{
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.fontawe{
+    color: #ffffff;
+}
+
+.card-image:hover .fontawe{
+    color:#ef5959;
+}
