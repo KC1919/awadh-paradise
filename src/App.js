@@ -5,6 +5,7 @@ import Service from "./components/Service";
 import Gallery from "./components/Gallery";
 import Testimonial from "./components/Testimonial";
 import Pricing from "./components/Pricing";
+import ContactForm from "./components/ContactForm";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Gallery />
       <Testimonial />
       <Pricing />
+      <ContactForm />
     </div>
   );
 }
