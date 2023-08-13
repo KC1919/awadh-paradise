@@ -3,8 +3,15 @@ import React from "react";
 // import "bootstrap/dist/css/bootstrap.min.css";
 // // Bootstrap Bundle JS
 // import "bootstrap/dist/js/bootstrap.bundle.min";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faWifi, faBroom, faBolt, faUtensils, faUserShield, faTemperatureThreeQuarters } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faWifi,
+  faBroom,
+  faBolt,
+  faUtensils,
+  faUserShield,
+  faTemperatureThreeQuarters,
+} from "@fortawesome/free-solid-svg-icons";
 
 import "../css/service.css";
 function Service() {
@@ -15,11 +22,16 @@ function Service() {
       </div>
       <div className="service-body-div row">
         <div className="service-card-div col-md-3">
-          <div className="card" style={{"width": "18rem",}}>
+          <div className="card" style={{ width: "18rem" }}>
             {/* <img src={require("../img/wifi.png")} className="card-img-top" alt="..." /> */}
             <div className="card-image">
               {/* <i class="fa-solid fa-wifi" style={{"color": "#ffffff"}}></i> */}
-              <FontAwesomeIcon className="fontawe" icon={faWifi} size="2xl" style={{}}/>
+              <FontAwesomeIcon
+                className="fontawe"
+                icon={faWifi}
+                size="2xl"
+                style={{}}
+              />
             </div>
             <div className="card-body">
               <p className="card-text">
@@ -31,11 +43,16 @@ function Service() {
         </div>
 
         <div className="service-card-div col-md-3">
-          <div className="card" style={{"width": "18rem",}}>
+          <div className="card" style={{ width: "18rem" }}>
             {/* <img src={require("../img/wifi.png")} className="card-img-top" alt="..." /> */}
             <div className="card-image">
               {/* <i class="fa-solid fa-wifi" style={{"color": "#ffffff"}}></i> */}
-              <FontAwesomeIcon className="fontawe" icon={faBroom} size="2xl" style={{}} />
+              <FontAwesomeIcon
+                className="fontawe"
+                icon={faBroom}
+                size="2xl"
+                style={{}}
+              />
             </div>
             <div className="card-body">
               <p className="card-text">
@@ -47,11 +64,16 @@ function Service() {
         </div>
 
         <div className="service-card-div col-md-3">
-          <div className="card" style={{"width": "18rem",}}>
+          <div className="card" style={{ width: "18rem" }}>
             {/* <img src={require("../img/wifi.png")} className="card-img-top" alt="..." /> */}
             <div className="card-image">
               {/* <i class="fa-solid fa-wifi" style={{"color": "#ffffff"}}></i> */}
-              <FontAwesomeIcon className="fontawe" icon={faBolt} size="2xl" style={{}} />
+              <FontAwesomeIcon
+                className="fontawe"
+                icon={faBolt}
+                size="2xl"
+                style={{}}
+              />
             </div>
             <div className="card-body">
               <p className="card-text">
@@ -63,11 +85,16 @@ function Service() {
         </div>
 
         <div className="service-card-div col-md-3">
-          <div className="card" style={{"width": "18rem",}}>
+          <div className="card" style={{ width: "18rem" }}>
             {/* <img src={require("../img/wifi.png")} className="card-img-top" alt="..." /> */}
             <div className="card-image">
               {/* <i class="fa-solid fa-wifi" style={{"color": "#ffffff"}}></i> */}
-              <FontAwesomeIcon className="fontawe" icon={faUtensils} size="2xl" style={{}} />
+              <FontAwesomeIcon
+                className="fontawe"
+                icon={faUtensils}
+                size="2xl"
+                style={{}}
+              />
             </div>
             <div className="card-body">
               <p className="card-text">
@@ -79,11 +106,16 @@ function Service() {
         </div>
 
         <div className="service-card-div col-md-3">
-          <div className="card" style={{"width": "18rem",}}>
+          <div className="card" style={{ width: "18rem" }}>
             {/* <img src={require("../img/wifi.png")} className="card-img-top" alt="..." /> */}
             <div className="card-image">
               {/* <i class="fa-solid fa-wifi" style={{"color": "#ffffff"}}></i> */}
-              <FontAwesomeIcon className="fontawe" icon={faUserShield} size="2xl" style={{}} />
+              <FontAwesomeIcon
+                className="fontawe"
+                icon={faUserShield}
+                size="2xl"
+                style={{}}
+              />
             </div>
             <div className="card-body">
               <p className="card-text">
@@ -95,11 +127,16 @@ function Service() {
         </div>
 
         <div className="service-card-div col-md-3">
-          <div className="card" style={{"width": "18rem",}}>
+          <div className="card" style={{ width: "18rem" }}>
             {/* <img src={require("../img/wifi.png")} className="card-img-top" alt="..." /> */}
             <div className="card-image">
               {/* <i class="fa-solid fa-wifi" style={{"color": "#ffffff"}}></i> */}
-              <FontAwesomeIcon className="fontawe" icon={faTemperatureThreeQuarters} size="2xl" style={{}} />
+              <FontAwesomeIcon
+                className="fontawe"
+                icon={faTemperatureThreeQuarters}
+                size="2xl"
+                style={{}}
+              />
             </div>
             <div className="card-body">
               <p className="card-text">

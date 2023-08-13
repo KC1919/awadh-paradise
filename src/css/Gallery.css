@@ -1,0 +1,43 @@
+/* Gallery Component Styles */
+
+/* Wrapper for the entire gallery section */
+.gallery-section {
+  padding: 40px 0;
+  background-color: #f7f7f7; /* Example background color */
+}
+
+/* Heading for the gallery section */
+.section-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Gallery item styles */
+.gallery-item {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+/* Set fixed dimensions for gallery images */
+.gallery-item img {
+  width: 100%;
+  height: 200px; /* Adjust as needed */
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Center the modal content */
+.modal-dialog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* Set fixed dimensions for modal images */
+.modal-image {
+  width: 75vw;
+  max-height: 75vh;
+  object-fit: contain;
+}
