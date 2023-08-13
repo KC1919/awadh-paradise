@@ -4,6 +4,7 @@ import Slider from "./components/Slider";
 import Service from "./components/Service";
 import Gallery from "./components/Gallery";
 import Testimonial from "./components/Testimonial";
+import Pricing from "./components/Pricing";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Service />
       <Gallery />
       <Testimonial />
+      <Pricing />
     </div>
   );
 }
