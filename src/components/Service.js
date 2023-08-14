@@ -20,8 +20,8 @@ function Service() {
       <div className="service-header-div">
         <h2>Services</h2>
       </div>
-      <div className="service-body-div row">
-        <div className="service-card-div col-md-3">
+      <div className="service-body-div">
+        <div className="service-card-div ">
           <div className="card" style={{ width: "18rem" }}>
             {/* <img src={require("../img/wifi.png")} className="card-img-top" alt="..." /> */}
             <div className="card-image">
@@ -42,7 +42,7 @@ function Service() {
           </div>
         </div>
 
-        <div className="service-card-div col-md-3">
+        <div className="service-card-div ">
           <div className="card" style={{ width: "18rem" }}>
             {/* <img src={require("../img/wifi.png")} className="card-img-top" alt="..." /> */}
             <div className="card-image">
@@ -63,7 +63,7 @@ function Service() {
           </div>
         </div>
 
-        <div className="service-card-div col-md-3">
+        <div className="service-card-div ">
           <div className="card" style={{ width: "18rem" }}>
             {/* <img src={require("../img/wifi.png")} className="card-img-top" alt="..." /> */}
             <div className="card-image">
@@ -84,7 +84,7 @@ function Service() {
           </div>
         </div>
 
-        <div className="service-card-div col-md-3">
+        <div className="service-card-div ">
           <div className="card" style={{ width: "18rem" }}>
             {/* <img src={require("../img/wifi.png")} className="card-img-top" alt="..." /> */}
             <div className="card-image">
@@ -105,7 +105,7 @@ function Service() {
           </div>
         </div>
 
-        <div className="service-card-div col-md-3">
+        <div className="service-card-div ">
           <div className="card" style={{ width: "18rem" }}>
             {/* <img src={require("../img/wifi.png")} className="card-img-top" alt="..." /> */}
             <div className="card-image">
@@ -126,7 +126,7 @@ function Service() {
           </div>
         </div>
 
-        <div className="service-card-div col-md-3">
+        <div className="service-card-div ">
           <div className="card" style={{ width: "18rem" }}>
             {/* <img src={require("../img/wifi.png")} className="card-img-top" alt="..." /> */}
             <div className="card-image">
