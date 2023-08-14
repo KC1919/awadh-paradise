@@ -1,0 +1,20 @@
+.contact-details-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem;
+}
+
+.details-card-div{
+    width: 50%;
+    margin: 2rem;
+    text-align: center;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    padding: 4rem;
+    cursor: pointer;
+    color: lightslategrey;
+}
+
+.icon-div{
+    margin: 1rem;
+}
