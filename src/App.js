@@ -9,18 +9,30 @@ import ContactForm from "./components/ContactForm";
 import Location from "./components/Location";
 import Footer from "./components/Footer";
 
+import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
+
 function App() {
   return (
     <div>
+    <BrowserRouter>
       <CustomNavbar />
-      <Slider />
-      <Service />
-      <Gallery />
-      <Testimonial />
-      <Pricing />
-      <ContactForm />
-      <Location />
-      <Footer />
+      {/* <Routes> */}
+        {/* <Route exact path='/' element={<Slider />}></Route> */}
+        {/* <Route exact path='/services' element={<Service />}></Route>
+        <Route exact path='/gallery' element={<Gallery />}></Route>
+        <Route exact path='/testimonial' element={<Testimonial />}></Route>
+        <Route exact path='/pricing' element={<Pricing />}></Route>
+        <Route exact path='/contact' element={<ContactForm />}></Route>
+      </Routes> */}
+      <Slider/>
+      <Service/>
+      <Gallery/>
+      <Testimonial/>
+      <Pricing/>
+      <ContactForm/>
+      <Location/>
+      <Footer/>
+    </BrowserRouter>
     </div>
   );
 }

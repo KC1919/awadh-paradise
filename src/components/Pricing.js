@@ -23,7 +23,7 @@ const pricingDetails = [
 
 const Pricing = () => {
   return (
-    <div className="pricing-section">
+    <div className="pricing-section" id="pricing">
       <Container>
         <h2 className="section-heading">Pricing</h2>
         <Row>

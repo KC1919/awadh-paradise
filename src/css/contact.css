@@ -1,8 +1,11 @@
 .contact-details-div{
+    box-sizing: border-box;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 2rem;
+    /* margin: 2rem; */
+    width: 100%;
+    /* flex-wrap: wrap; */
 }
 
 .details-card-div{
@@ -14,6 +17,15 @@
     cursor: pointer;
     color: lightslategrey;
 }
+
+@media screen and (max-width: 600px) {
+    .contact-details-div {
+      flex-wrap: wrap;
+    }
+    .details-card-div{
+        width: 100%;
+    }
+  }
 
 .icon-div{
     margin: 1rem;

@@ -33,7 +33,7 @@ const ContactForm = () => {
   return (
     <>
     {/* <section> */}
-        <div className="container mt-5" style={styles.formDiv}>
+        <div className="container mt-5" style={styles.formDiv} id='contact'>
         <div style={{"padding":"0.5rem"}}>
           <h2 className="mb-3" style={{"textAlign":"center"}}>Contact Us</h2>
         </div>
@@ -44,11 +44,14 @@ const ContactForm = () => {
             <div className='icon-div'>
             <FontAwesomeIcon icon={faEnvelope} size="2xl" style={{color: "0a396b",}} />
             </div>
-            <div>
-              <h4>Email Us</h4>
-            </div>
-            <div>
-              <h6>info@awadparadise.in</h6>
+
+            <div style={{"maxWidth":"100%","margin":"0 auto"}}>
+              <div>
+                <h4>Email Us</h4>
+              </div>
+              <div>
+                <h6>info@awadparadise.in</h6>
+              </div>
             </div>
           </div>
 
@@ -56,11 +59,13 @@ const ContactForm = () => {
             <div className='icon-div'>
                 <FontAwesomeIcon icon={faPhoneVolume} size="2xl" style={{color: "0a396b",}} />
             </div>
-            <div>
+            <div style={{"width":"100%","margin":"0 auto"}}>
+              <div>
                 <h4>Call Us</h4>
-            </div>
-            <div>
-              <h6>9987463250</h6>
+              </div>
+              <div>
+                <h6>9985447620</h6>
+              </div>
             </div>
           </div>
 

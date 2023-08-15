@@ -22,6 +22,7 @@ function Slider() {
   ];
 
   return (
+    <section id="#">
     <Carousel>
       {carouselItems.map((item, index) => (
         <Carousel.Item key={index}>
@@ -49,6 +50,7 @@ function Slider() {
         </Carousel.Item>
       ))}
     </Carousel>
+    </section>
   );
 }
 

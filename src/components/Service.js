@@ -16,7 +16,7 @@ import {
 import "../css/service.css";
 function Service() {
   return (
-    <>
+    <section id="services">
       <div className="service-header-div">
         <h2>Services</h2>
       </div>
@@ -147,7 +147,7 @@ function Service() {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 }
 
