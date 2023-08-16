@@ -26,6 +26,12 @@
     border-radius: 10px;
 }
 
+@media screen and (max-width:300px) {
+    .service-card-div{
+        width: 100%;
+    }
+}
+
 .card-image{
     /* #ef5959 #2f5f93 */
     background-color: #ef5959;
