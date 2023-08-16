@@ -2,7 +2,7 @@
   "name": "awadh-paradise",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://KC1919.github.io/awadh-paradise",
+  "homepage": "http://KC1919.github.io/awadh-paradise/index.html",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
