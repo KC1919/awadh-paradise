@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/awadh-paradise/static/css/main.c4117e8a.css",
-    "main.js": "/awadh-paradise/static/js/main.a93a4cf7.js",
-    "index.html": "/awadh-paradise/index.html",
-    "main.c4117e8a.css.map": "/awadh-paradise/static/css/main.c4117e8a.css.map",
-    "main.a93a4cf7.js.map": "/awadh-paradise/static/js/main.a93a4cf7.js.map"
+    "main.css": "/awadh-paradise/index.html/static/css/main.de5ac947.css",
+    "main.js": "/awadh-paradise/index.html/static/js/main.a93a4cf7.js",
+    "index.html": "/awadh-paradise/index.html/index.html",
+    "main.de5ac947.css.map": "/awadh-paradise/index.html/static/css/main.de5ac947.css.map",
+    "main.a93a4cf7.js.map": "/awadh-paradise/index.html/static/js/main.a93a4cf7.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4117e8a.css",
+    "static/css/main.de5ac947.css",
     "static/js/main.a93a4cf7.js"
   ]
 }
