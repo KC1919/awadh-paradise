@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/awadh-paradise/static/css/main.de5ac947.css",
+    "main.js": "/awadh-paradise/static/js/main.90c5f109.js",
+    "index.html": "/awadh-paradise/index.html",
+    "main.de5ac947.css.map": "/awadh-paradise/static/css/main.de5ac947.css.map",
+    "main.90c5f109.js.map": "/awadh-paradise/static/js/main.90c5f109.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de5ac947.css",
+    "static/js/main.90c5f109.js"
+  ]
+}
