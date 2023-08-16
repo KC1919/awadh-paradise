@@ -1,34 +1,68 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import {HashLink as Link } from "react-router-hash-link";
+
+// import Service from "./Service";
+// import ContactForm from "./ContactForm";
+// import Gallery from "./Gallery";
+// import Pricing from "./Pricing";
+// import Testimonial from "./Testimonial";
+// import Slider from "./Slider";
+
 
 function CustomNavbar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary" bg="light py-3">
       <Container fluid>
-        <Navbar.Brand href="#home">Awadh Paradise</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Brand href="#home" style={{ fontSize: "35px", marginLeft:"1.2rem"}}>
+          Awadh Paradise
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" style={{marginRight:"0.6rem"}}/>
+        <Navbar.Collapse id="basic-navbar-nav" style={{paddingLeft:"1rem", paddingTop:"1rem"}}>
           <Nav className="ml-auto">
-            <Nav.Link href="#home" className="mr-3 text-primary">
+            <Link
+              to="#"
+              className="mr-3 "
+              style={{ fontSize: "18px", textDecoration:"none" ,color:"lightslategrey"}}
+            >
               Home
-            </Nav.Link>{" "}
-            <Nav.Link href="#link" className="mr-3 text-primary">
+            </Link>
+            <Link
+              to="#services"
+              className="mr-3"
+              style={{ fontSize: "18px", textDecoration:"none", color:"lightslategrey" }}
+            >
               Services
-            </Nav.Link>{" "}
-            <Nav.Link href="#link" className="mr-3 text-primary">
+            </Link>
+            <Link
+              to="#gallery"
+              className="mr-3"
+              style={{ fontSize: "18px", textDecoration:"none", color:"lightslategrey" }}
+            >
               Photo Gallery
-            </Nav.Link>{" "}
-            <Nav.Link href="#link" className="mr-3 text-primary">
+            </Link>
+            <Link
+              to="#pricing"
+              className="mr-3"
+              style={{ fontSize: "18px", textDecoration:"none", color:"lightslategrey" }}
+            >
               Pricing
-            </Nav.Link>{" "}
-            <Nav.Link href="#link" className="mr-3 text-primary">
+            </Link>
+            <Link
+              to="#faq"
+              className="mr-3"
+              style={{ fontSize: "18px", textDecoration:"none", color:"lightslategrey" }}
+            >
               FAQ
-            </Nav.Link>{" "}
-            <Nav.Link href="#link" className="mr-3 text-primary">
+            </Link>
+            <Link
+              to="#contact"
+              className="mr-3"
+              style={{ fontSize: "18px", textDecoration:"none", color:"lightslategrey" }}
+            >
               Contact
-            </Nav.Link>{" "}
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

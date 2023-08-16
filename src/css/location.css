@@ -1,0 +1,11 @@
+.location-header-div{
+    text-align: center;
+    width: 40vw;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.location-section{
+    background-color: #f9f9f9;
+    padding: 3rem 0;
+}
