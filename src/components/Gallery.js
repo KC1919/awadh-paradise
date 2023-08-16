@@ -43,6 +43,7 @@ const Gallery = () => {
           onHide={() => setShowModal(false)}
           centered
           size="xl"
+          className="modal-dialogue"
         >
           <Modal.Body>
             <img src={selectedImage} alt="Selected" className="modal-image" />

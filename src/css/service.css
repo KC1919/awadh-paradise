@@ -11,10 +11,11 @@
     /* margin: 0 2rem; */
     /* text-align: center; */
     display: flex;
-    justify-content: flex-start;
+    justify-content:center;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
+    /* text-align: center; */
 }
 
 .service-card-div {
@@ -26,6 +27,7 @@
 }
 
 .card-image{
+    /* #ef5959 #2f5f93 */
     background-color: #ef5959;
     height: 30vh;
     display: flex;

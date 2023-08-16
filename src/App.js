@@ -13,26 +13,28 @@ import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-    <BrowserRouter>
-      <CustomNavbar />
-      {/* <Routes> */}
-        {/* <Route exact path='/' element={<Slider />}></Route> */}
-        {/* <Route exact path='/services' element={<Service />}></Route>
-        <Route exact path='/gallery' element={<Gallery />}></Route>
-        <Route exact path='/testimonial' element={<Testimonial />}></Route>
-        <Route exact path='/pricing' element={<Pricing />}></Route>
-        <Route exact path='/contact' element={<ContactForm />}></Route>
-      </Routes> */}
-      <Slider/>
-      <Service/>
-      <Gallery/>
-      <Testimonial/>
-      <Pricing/>
-      <ContactForm/>
-      <Location/>
-      <Footer/>
-    </BrowserRouter>
+    <div className="responsive-width">
+      <BrowserRouter>
+        <CustomNavbar />
+        {/* <Routes> */}
+          {/* <Route exact path='/' element={<Slider />}></Route> */}
+          {/* <Route exact path='/services' element={<Service />}></Route>
+          <Route exact path='/gallery' element={<Gallery />}></Route>
+          <Route exact path='/testimonial' element={<Testimonial />}></Route>
+          <Route exact path='/pricing' element={<Pricing />}></Route>
+          <Route exact path='/contact' element={<ContactForm />}></Route>
+        </Routes> */}
+        <Slider/>
+        <Service/>
+        <Gallery/>
+        <Testimonial/>
+        <Pricing/>
+        <ContactForm/>
+        <Location/>
+        <Footer/>
+      </BrowserRouter>
+
+      <div className="scroll-to-top"><button className="btn primary-btn">Up</button></div>
     </div>
   );
 }

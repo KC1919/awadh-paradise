@@ -19,7 +19,7 @@ function CustomNavbar() {
           Awadh Paradise
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" style={{paddingLeft:"1rem", paddingTop:"1rem"}}>
           <Nav className="ml-auto">
             <Link
               to="#"
