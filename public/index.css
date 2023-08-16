@@ -8,6 +8,19 @@ body {
   /* box-sizing: border-box; */
 }
 
+/* @media screen and (max-width<250px) {
+  #root{
+    width: 100%;
+  }
+} */
+
+/* @media screen and (max-width:300px) {
+  #root{
+    width: 100%;
+  }
+} */
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -19,8 +32,6 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 5rem;
-  margin: 1rem auto;
   position: absolute;
   left: calc(100vw - 50vw);
   top: calc(100vh - 50vh);;

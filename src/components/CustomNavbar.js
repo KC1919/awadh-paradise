@@ -15,7 +15,7 @@ function CustomNavbar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary" bg="light py-3">
       <Container fluid>
-        <Navbar.Brand href="#home" style={{ fontSize: "35px" }}>
+        <Navbar.Brand href="#home" style={{ fontSize: "35px", marginLeft:"1.2rem"}}>
           Awadh Paradise
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
