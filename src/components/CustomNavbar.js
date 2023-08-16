@@ -18,7 +18,7 @@ function CustomNavbar() {
         <Navbar.Brand href="#home" style={{ fontSize: "35px", marginLeft:"1.2rem"}}>
           Awadh Paradise
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" style={{marginRight:"0.6rem"}}/>
         <Navbar.Collapse id="basic-navbar-nav" style={{paddingLeft:"1rem", paddingTop:"1rem"}}>
           <Nav className="ml-auto">
             <Link
