@@ -4,7 +4,8 @@
 .gallery-section {
   padding: 40px 0;
   background-color: #f7f7f7; /* Example background color */
-  width: 100vw;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /* Heading for the gallery section */
