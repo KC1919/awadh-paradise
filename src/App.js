@@ -34,7 +34,7 @@ function App() {
         <Footer/>
       </BrowserRouter>
 
-      <div className="scroll-to-top"><button className="btn primary-btn">Up</button></div>
+      {/* <div className="scroll-to-top"><button className="btn primary-btn">Up</button></div> */}
     </div>
   );
 }
